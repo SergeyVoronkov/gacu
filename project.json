@@ -1,0 +1,27 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS": false,
+    "frameRate" : 60,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules": ["cocos2d"],
+
+    "jsList": [
+		"src/util.js",
+		"src/configlevels.js",
+		"src/finish.js",
+		"src/three.js",
+        "src/node3d.js",
+		"src/resource.js",
+		"src/game.js",
+		"src/gameobject.js",
+		"src/tilednode.js",
+		"src/clod.js",
+        "src/startscreen.js"
+    ]
+}
